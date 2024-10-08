@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000594] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000644] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.006794] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.007095] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.007572] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros', '--', '-j12', '-l12'], 'cwd': '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/rgopikrishnan/gz_ws/src/ardupilot_gazebo/build:'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/rgopikrishnan/pico_ws/src/rotors_simulator/rotors_swift_description/models'), ('LANGUAGE', 'en_IN:en'), ('USER', 'rgopikrishnan'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rgopikrishnan/pico_ws/install/whycon/lib:/home/rgopikrishnan/pico_ws/install/swift_msgs/lib:/home/rgopikrishnan/pico_ws/install/rotors_control/lib:/home/rgopikrishnan/pico_ws/install/pid_msg/lib:/home/rgopikrishnan/pico_ws/install/mav_system_msgs/lib:/home/rgopikrishnan/pico_ws/install/mav_state_machine_msgs/lib:/home/rgopikrishnan/pico_ws/install/mav_planning_msgs/lib:/home/rgopikrishnan/pico_ws/install/mav_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/rgopikrishnan'), ('OLDPWD', '/home/rgopikrishnan'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1994'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rgopikrishnan/rplidar_ws/install:/home/rgopikrishnan/pico_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rgopikrishnan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rgopikrishnan'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:https://github.com/tudelft/gazebo_models.git/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/rgopikrishnan/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/rgopikrishnan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/share/gazebo-X.X/bin'), ('SESSION_MANAGER', 'local/r-gopikrishnan:@/tmp/.ICE-unix/1952,unix/r-gopikrishnan:/tmp/.ICE-unix/1952'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c1aef5d2_6ef6_463f_8b2a_67d742bfcf8a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.601PV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros:/home/rgopikrishnan/pico_ws/install/whycon:/home/rgopikrishnan/pico_ws/install/swift_pico:/home/rgopikrishnan/pico_ws/install/rotors_swift_interface:/home/rgopikrishnan/pico_ws/install/swift_msgs:/home/rgopikrishnan/pico_ws/install/rotors_swift_gazebo:/home/rgopikrishnan/pico_ws/install/rotors_swift_description:/home/rgopikrishnan/pico_ws/install/rotors_control:/home/rgopikrishnan/pico_ws/install/pid_tune:/home/rgopikrishnan/pico_ws/install/pid_msg:/home/rgopikrishnan/pico_ws/install/mav_comm:/home/rgopikrishnan/pico_ws/install/mav_system_msgs:/home/rgopikrishnan/pico_ws/install/mav_state_machine_msgs:/home/rgopikrishnan/pico_ws/install/mav_planning_msgs:/home/rgopikrishnan/pico_ws/install/mav_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages:/home/rgopikrishnan/pico_ws/install/swift_msgs/local/lib/python3.10/dist-packages:/home/rgopikrishnan/pico_ws/install/pid_msg/local/lib/python3.10/dist-packages:/home/rgopikrishnan/pico_ws/install/mav_planning_msgs/local/lib/python3.10/dist-packages:/home/rgopikrishnan/pico_ws/install/mav_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros:/home/rgopikrishnan/pico_ws/install/whycon:/home/rgopikrishnan/pico_ws/install/swift_pico:/home/rgopikrishnan/pico_ws/install/rotors_swift_interface:/home/rgopikrishnan/pico_ws/install/swift_msgs:/home/rgopikrishnan/pico_ws/install/rotors_swift_gazebo:/home/rgopikrishnan/pico_ws/install/rotors_swift_description:/home/rgopikrishnan/pico_ws/install/rotors_control:/home/rgopikrishnan/pico_ws/install/pid_tune:/home/rgopikrishnan/pico_ws/install/pid_msg:/home/rgopikrishnan/pico_ws/install/mav_comm:/home/rgopikrishnan/pico_ws/install/mav_system_msgs:/home/rgopikrishnan/pico_ws/install/mav_state_machine_msgs:/home/rgopikrishnan/pico_ws/install/mav_planning_msgs:/home/rgopikrishnan/pico_ws/install/mav_msgs:/home/rgopikrishnan/ros2_ws/install/px4_msgs/share/px4_msgs/cmake:/opt/ros/humble')]), 'shell': False}
+[0.099936] (-) TimerEvent: {}
+[0.200430] (-) TimerEvent: {}
+[0.300883] (-) TimerEvent: {}
+[0.401370] (-) TimerEvent: {}
+[0.501742] (-) TimerEvent: {}
+[0.602272] (-) TimerEvent: {}
+[0.702694] (-) TimerEvent: {}
+[0.803156] (-) TimerEvent: {}
+[0.903605] (-) TimerEvent: {}
+[1.004060] (-) TimerEvent: {}
+[1.104547] (-) TimerEvent: {}
+[1.204934] (-) TimerEvent: {}
+[1.305396] (-) TimerEvent: {}
+[1.406069] (-) TimerEvent: {}
+[1.506770] (-) TimerEvent: {}
+[1.607147] (-) TimerEvent: {}
+[1.658299] (rplidar_ros) StdoutLine: {'line': b'-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.658552] (rplidar_ros) StdoutLine: {'line': b'-- NumPy found: 1.23.0\n'}
+[1.658629] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.707357] (-) TimerEvent: {}
+[1.807908] (-) TimerEvent: {}
+[1.824923] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.832621] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.866235] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.868829] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.876123] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.887162] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.900997] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.908075] (-) TimerEvent: {}
+[1.934416] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.935855] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.008327] (-) TimerEvent: {}
+[2.054703] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.108524] (-) TimerEvent: {}
+[2.114453] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.143277] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.149221] (rplidar_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.158499] (rplidar_ros) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[2.158587] (rplidar_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.171455] (rplidar_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:60 (find_package):\n'}
+[2.171592] (rplidar_ros) StderrLine: {'line': b'  By not providing "Findnumpy.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.171630] (rplidar_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "numpy", but\n'}
+[2.171660] (rplidar_ros) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.171688] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.171715] (rplidar_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "numpy" with any of\n'}
+[2.171741] (rplidar_ros) StderrLine: {'line': b'  the following names:\n'}
+[2.171767] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.171793] (rplidar_ros) StderrLine: {'line': b'    numpyConfig.cmake\n'}
+[2.171819] (rplidar_ros) StderrLine: {'line': b'    numpy-config.cmake\n'}
+[2.171844] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.171871] (rplidar_ros) StderrLine: {'line': b'  Add the installation prefix of "numpy" to CMAKE_PREFIX_PATH or set\n'}
+[2.171897] (rplidar_ros) StderrLine: {'line': b'  "numpy_DIR" to a directory containing one of the above files.  If "numpy"\n'}
+[2.171921] (rplidar_ros) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.171946] (rplidar_ros) StderrLine: {'line': b'  installed.\n'}
+[2.171971] (rplidar_ros) StderrLine: {'line': b'\n'}
+[2.171996] (rplidar_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[2.172020] (rplidar_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.172054] (rplidar_ros) StdoutLine: {'line': b'See also "/home/rgopikrishnan/rplidar_ws/build/rplidar_ros/CMakeFiles/CMakeOutput.log".\n'}
+[2.177835] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:922: cmake_check_build_system] Error 1\n'}
+[2.180220] (rplidar_ros) CommandEnded: {'returncode': 2}
+[2.208660] (-) TimerEvent: {}
+[2.309132] (-) TimerEvent: {}
+[2.320782] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 2}
+[2.332005] (-) EventReactorShutdown: {}

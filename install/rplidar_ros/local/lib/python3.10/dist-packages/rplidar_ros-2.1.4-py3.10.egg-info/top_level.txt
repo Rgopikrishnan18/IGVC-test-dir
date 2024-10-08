@@ -1,0 +1,1 @@
+/home/rgopikrishnan/rplidar_ws/build/rplidar_ros/ament_cmake_python/rplidar_ros/rplidar_ros.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+/home/rgopikrishnan/rplidar_ws/rplidar_ros/src/install/setup.sh

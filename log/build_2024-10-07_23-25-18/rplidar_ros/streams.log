@@ -1,0 +1,38 @@
+[0.014s] Invoking command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rgopikrishnan/rplidar_ws/build/rplidar_ros -- -j12 -l12
+[0.100s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.313s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.387s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.508s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.511s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.861s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.886s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.913s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.918s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.960s] [31mCMake Error at CMakeLists.txt:51 (find_package):
+[0.961s]   By not providing "Findnumpy.cmake" in CMAKE_MODULE_PATH this project has
+[0.961s]   asked CMake to find a package configuration file provided by "numpy", but
+[0.961s]   CMake did not find one.
+[0.961s] 
+[0.961s]   Could not find a package configuration file provided by "numpy" with any of
+[0.961s]   the following names:
+[0.961s] 
+[0.961s]     numpyConfig.cmake
+[0.961s]     numpy-config.cmake
+[0.961s] 
+[0.961s]   Add the installation prefix of "numpy" to CMAKE_PREFIX_PATH or set
+[0.962s]   "numpy_DIR" to a directory containing one of the above files.  If "numpy"
+[0.962s]   provides a separate development package or SDK, be sure it has been
+[0.962s]   installed.
+[0.962s] 
+[0.962s] [0m
+[0.962s] -- Configuring incomplete, errors occurred!
+[0.962s] See also "/home/rgopikrishnan/rplidar_ws/build/rplidar_ros/CMakeFiles/CMakeOutput.log".
+[0.970s] gmake: *** [Makefile:922: cmake_check_build_system] Error 1
+[0.975s] Invoked command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rgopikrishnan/rplidar_ws/build/rplidar_ros -- -j12 -l12

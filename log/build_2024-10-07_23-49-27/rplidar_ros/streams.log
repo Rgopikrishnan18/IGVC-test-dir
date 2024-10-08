@@ -1,0 +1,89 @@
+[0.025s] Invoking command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rgopikrishnan/rplidar_ws/build/rplidar_ros -- -j12 -l12
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target lidar_map_node[0m
+[0.131s] [  3%] Built target rplidar_client
+[0.152s] [  3%] Built target ament_cmake_python_symlink_rplidar_ros
+[0.164s] [ 51%] Built target rplidar_node
+[0.164s] [ 67%] Built target rplidar_composition
+[0.182s] [100%] Built target lidar_map_node
+[0.371s] running egg_info
+[0.381s] writing rplidar_ros.egg-info/PKG-INFO
+[0.381s] writing dependency_links to rplidar_ros.egg-info/dependency_links.txt
+[0.381s] writing top-level names to rplidar_ros.egg-info/top_level.txt
+[0.408s] reading manifest file 'rplidar_ros.egg-info/SOURCES.txt'
+[0.408s] writing manifest file 'rplidar_ros.egg-info/SOURCES.txt'
+[0.436s] [100%] Built target ament_cmake_python_build_rplidar_ros_egg
+[0.459s] Invoked command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rgopikrishnan/rplidar_ws/build/rplidar_ros -- -j12 -l12
+[0.649s] Invoking command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rgopikrishnan/rplidar_ws/build/rplidar_ros
+[0.665s] -- Install configuration: ""
+[0.666s] -- Execute custom install script
+[0.666s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/pythonpath.sh
+[0.667s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/pythonpath.dsv
+[0.667s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/PKG-INFO
+[0.667s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/SOURCES.txt
+[0.668s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/dependency_links.txt
+[0.668s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros-2.1.4-py3.10.egg-info/top_level.txt
+[0.668s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/__init__.py
+[0.669s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/cv_to_map.py
+[0.669s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/cv_to_map2.py
+[0.669s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/igvc_slam_node.py
+[0.669s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/lidar_map_node.cpp
+[0.669s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/rplidar_client.cpp
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/rplidar_node.cpp
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[0.670s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[0.671s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[0.672s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[0.673s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/igvc_slam_node.py
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/cv_to_map.py
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.674s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/lib/rplidar_ros/lidar_map_node
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.675s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.676s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.677s] -- Symlinking: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.692s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.693s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.693s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.693s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.693s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.693s] -- Up-to-date symlink: /home/rgopikrishnan/rplidar_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.763s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/Downloads'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/build'...
+[0.764s] Compiling '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/cv_to_map.py'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/install'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/log'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/log/build_2024-10-05_01-16-40'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/log/latest'...
+[0.764s] Listing '/home/rgopikrishnan/rplidar_ws/install/rplidar_ros/local/lib/python3.10/dist-packages/rplidar_ros/log/latest_build'...
+[0.773s] Invoked command in '/home/rgopikrishnan/rplidar_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rgopikrishnan/rplidar_ws/build/rplidar_ros
